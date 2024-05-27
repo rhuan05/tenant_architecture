@@ -1,0 +1,8 @@
+<div class="container">
+    <h1>Cadastro</h1>
+    <form (submit)="cadastrar($event)">
+        <input type="text" name="user" id="user" placeholder="Usuário" [(ngModel)]="usuario" />
+        <input type="password" name="password" id="password" placeholder="Senha" [(ngModel)]="senha" />
+        <button type="submit">Cadastrar</button>
+    </form>
+</div>
